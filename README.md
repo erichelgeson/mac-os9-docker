@@ -2,6 +2,18 @@
 
 A docker image which uses QEMU to run Mac OS 9.
 
+## Why?!@
+
+Run a bridge file server (eg, FTP <-> AFP) to move files from your modern your classic macs.
+
+Build a CI/CD Pipeline for your new Classic Mac app or game.
+
+Horizontally scale your OS9's Personal Web Server on a k8 cluster.
+
+A CodeWarrior OS9 VDI in the cloud.
+
+Why not? <--
+
 ## Usage
 
 ### Prepare OS 9 Image
@@ -60,14 +72,6 @@ Run OS9 with 1gb of RAM and an alternative disk image name.
 ```bash
 docker run -e OS9_MEM=1024 -e OS9_DISK=MyDisk.img mac-os9:latest
 ```
-
-## Why
-
-Run a bridge file server (eg, FTP <-> AFP) to move files from your modern your classic macs.
-
-Build a CI/CD Pipeline for your new Classic Mac app or game.
-
-Why not?
 
 ## Performance
 
